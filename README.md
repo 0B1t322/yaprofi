@@ -34,28 +34,14 @@ $ npm install
 
 ## Running the app
 
+1. Run postgres in docker
 ```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+$ docker-compose up
 ```
 
-## Test
-
+2. run nest.js api app
 ```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+$ npm run start
 ```
 
 ## Support
